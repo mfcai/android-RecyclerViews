@@ -34,5 +34,13 @@
         android:layout_marginRight="15dp"
         android:text="突显列表第一项（顶部投影）"
         android:onClick="clickEvent"/>
-
+    <Button
+        android:id="@+id/btn_slide_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="item侧滑菜单"
+        android:onClick="clickEvent"/>
 </LinearLayout>

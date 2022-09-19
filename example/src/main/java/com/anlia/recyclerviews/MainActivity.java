@@ -20,6 +20,7 @@ import com.anlia.library.group.GroupItemDecoration;
 import com.anlia.library.group.SideGroupItemDecoration;
 import com.anlia.recyclerviews.group.GroupActivity;
 import com.anlia.recyclerviews.group.SideGroupActivity;
+import com.anlia.recyclerviews.group.SlideMenuActivity;
 import com.anlia.recyclerviews.header.TopProjectionActivity;
 
 import java.util.ArrayList;
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_top_projection:
                 startActivity(new Intent(this, TopProjectionActivity.class));
+                break;
+            case R.id.btn_slide_menu:
+                startActivity(new Intent(this, SlideMenuActivity.class));
                 break;
     	}
     }

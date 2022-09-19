@@ -18,6 +18,7 @@ import com.anlia.library.group.GroupItem;
 import com.anlia.library.group.GroupItemClickListener;
 import com.anlia.library.group.GroupItemDecoration;
 import com.anlia.library.group.SideGroupItemDecoration;
+import com.anlia.recyclerviews.group.CityActivity;
 import com.anlia.recyclerviews.group.GroupActivity;
 import com.anlia.recyclerviews.group.SideGroupActivity;
 import com.anlia.recyclerviews.group.SlideMenuActivity;
@@ -47,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_slide_menu:
                 startActivity(new Intent(this, SlideMenuActivity.class));
+                break;
+            case R.id.btn_tree_menu:
+                startActivity(new Intent(this, CityActivity.class));
                 break;
     	}
     }

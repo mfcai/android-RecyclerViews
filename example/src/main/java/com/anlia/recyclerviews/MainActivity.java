@@ -20,6 +20,7 @@ import com.anlia.library.group.GroupItemDecoration;
 import com.anlia.library.group.SideGroupItemDecoration;
 import com.anlia.recyclerviews.group.CityActivity;
 import com.anlia.recyclerviews.group.GroupActivity;
+import com.anlia.recyclerviews.group.RecycleLoadmoreActivity;
 import com.anlia.recyclerviews.group.SideGroupActivity;
 import com.anlia.recyclerviews.group.SlideMenuActivity;
 import com.anlia.recyclerviews.header.TopProjectionActivity;
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_tree_menu:
                 startActivity(new Intent(this, CityActivity.class));
+                break;
+            case R.id.btn_load_more:
+                startActivity(new Intent(this, RecycleLoadmoreActivity.class));
                 break;
     	}
     }

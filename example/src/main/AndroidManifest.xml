@@ -20,6 +20,8 @@
         <activity android:name=".group.SideGroupActivity" />
         <activity android:name=".header.TopProjectionActivity"/>
         <activity android:name=".group.SlideMenuActivity"/>
+        <activity android:name=".group.CityActivity"/>
+        <activity android:name=".group.RecycleLoadmoreActivity"/>
     </application>
 
 </manifest>
